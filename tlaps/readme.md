@@ -70,7 +70,7 @@ In TLA+ syntax, those two statements are written as:
 ### Using induction to prove correctness
 
 To use induction to prove correctness, we ned to strategically choose a state
-predicate called an *inductive invariant* (let's called it *Inv*) that has the following properties:
+predicate called an *inductive invariant* (let's call it *Inv*) that has the following properties:
 
 1. We can prove *Inv* by induction.
 2. We can prove *Inv* implies the correctness property.
